@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <img src="https://angelvasqueznep.github.io/platzimusic/dist/logo.png">
     <h1>PLATZIMUSIC</h1>
     <h2>Elige tu pais y ve los artistas del momento</h2>
     <select  v-model="selectedCountry"  >
