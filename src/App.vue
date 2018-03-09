@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="img-principal">
-      <img class="" src="/dist/logo.png">
+      <img class="" src="./dist/logo.png">
     </div>
     <h1>PLATZIMUSIC</h1>
     <h2>Elige tu pais y ve los artistas del momento algo</h2>
