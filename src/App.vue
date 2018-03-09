@@ -1,9 +1,14 @@
 <template>
   <div id="app">
+    <div class="img-principal">
+      <img class="" src="/dist/logo.png">
+    </div>
     <h1>PLATZIMUSIC</h1>
-    <h2>Elige tu pais y ve los artistas del momento</h2>
+    <h2>Elige tu pais y ve los artistas del momento algo</h2>
     <select  v-model="selectedCountry"  >
-      <option v-for="country in countries" v-bind:value="country.value">{{country.name}}</option>
+      <option v-for="country in countries" 
+              :key="country.value + country.name" 
+              :value="country.value">{{country.name}}</option>
     </select>
     <spinner v-show="loading"></spinner>
     <ul>
@@ -72,6 +77,8 @@ export default {
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
+    display: grid;
+    min-height: 100vh;
   }
   *{
     margin: 0;
@@ -99,13 +106,23 @@ export default {
   }
   select{
     font-size: 1rem;
-    margin: 30px 0;
-    height: 2rem;
-    width: 6rem;
+    margin: 30px auto;
+    padding: 0px;
+    height: 3rem;
+    width: 12rem;
     background: #41B883;
     color: white;
     border-color: #41B883;
+    border-radius: 3px;
   }
+
+  option{
+    font-size: 1.3rem;
+  }
+
+
+  
+
   .footer{
     color: white;
     width: 100%;
