@@ -4,7 +4,7 @@
       <img class="" src="./assets/logo.png">
     </div>
     <h1>PLATZIMUSIC</h1>
-    <h2>Elige tu pais y ve los artistas del momento algo</h2>
+    <h2>Elige tu pais y ve los artistas del momento</h2>
     <select  v-model="selectedCountry"  >
       <option v-for="country in countries" 
               :key="country.value + country.name" 
