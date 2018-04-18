@@ -29,6 +29,7 @@
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.1"
+<<<<<<< HEAD
   },
   "main": "webpack.config.js",
   "repository": {
@@ -42,4 +43,7 @@
     "url": "https://github.com/AngelVasquezNep/platzimusic/issues"
   },
   "homepage": "https://github.com/AngelVasquezNep/platzimusic#readme"
+=======
+  }
+>>>>>>> 94d9bfad8c18e42bee304e3a0a896ec3bddf46a5
 }
